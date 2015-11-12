@@ -1,0 +1,2 @@
+if exist "gdipp_x64.msi" msiexec /a "gdipp_x64.msi" /qb TARGETDIR="%~dp0\gdipp_x64"
+if exist "gdipp_x86.msi" msiexec /a gdipp_x86.msi /qb TARGETDIR="%~dp0\gdipp_x86"
